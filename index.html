@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milestone 4</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Generate Interactive Resume For Yourself</h1>
+    </header>
+    <h4>
+      *All Sections Should Be Filled For Generate The Resume*
+    </h4>
+
+    <div class="main-container">
+        <h2 class="main-heading">Information</h2>
+        <div class="sub-container">
+        <label for="fill-name">Full Name:</label>
+        <input class="input" type="name" id="fill-name" placeholder="e.g., John Doe">
+    </div>
+
+      <div class="sub-container">
+      <label for="fill-nat">Nationality:</label>
+      <input class="input" type="text" id="fill-nat" placeholder="e.g., American">
+  </div>
+
+  <div class="sub-container">
+    <label for="fill-gmail">Gmail:</label>
+    <input class="input" type="email" id="fill-gmail" placeholder="e.g., johndoe@gmail.com">
+</div>
+
+<div class="sub-container">
+  <label for="fill-contact">Phone Number:</label>
+  <input class="input" type="number" id="fill-contact" placeholder="e.g., (123) 456-7890">
+</div>
+
+<div class="sub-container">
+  <label for="fill-linkedin">LinkedIn Profile URL:</label>
+  <input class="input" type="url" id="fill-linkedin" placeholder="e.g., linkedin.com/in/johndoe">
+</div>
+      
+   <div class="margin"></div>
+      <div class="sub-container">
+      <label for="fill-obj">Objective:</label>
+      <textarea class="text" type="text" id="fill-obj" placeholder="e.g., To leverage my skills in a challenging role..."></textarea>
+  </div>
+
+      <div class="sub-container">
+      <label for="fill-education">Education:</label>
+      <textarea class="text" type="text" id="fill-education" placeholder="e.g., Bachelor's in Computer Science, 2022"></textarea>
+
+  </div>
+
+      <div class="sub-container">
+      <label for="fill-skills">Skills:</label>
+      <textarea class="text" type="text" id="fill-skills" placeholder="e.g., HTML, CSS, JavaScript, React"></textarea>
+
+    </div>
+  <div class="btn-div">
+    <button id="generate-btn"><b>Generate Resume</b></button>
+</div>
+</div>
+<div id="resume-output"  contenteditable ="true" ></div>
+
+  
+<!-- 
+    <div id="all-buttons">
+      <div id="input1">
+        <button id="b1"><b>Objective</b></button>
+        <div id="work1">
+         <h5>Objective</h5>
+         <input type="text" id="fill-obj" name="objective content" placeholder="Your Objective">
+
+        </div>
+      </div>
+
+      <div id="input2">
+        <button id="b2"><b>Personal Information </b></button>
+        <div id="work2">
+          '<h5>Name</h5>
+           <input id="fill-name" type="text" name="name content" placeholder="Your Name">
+            <h5>Nationality</h5>
+             <input id="fill-nat" type="text" name="nationality content" placeholder="Your Nationality">
+              <h5>Gmail</h5>
+               <input id="fill-gmail" type="text" name="gmail content" placeholder="Your Gmail" >
+                <h5>Conatact No</h5>
+                 <input id="fill-contact" type="text" name="contact no" placeholder="Your Contact Number" > 
+                 <h5>Linkedin Profile</h5> 
+                 <input id="fill-linkedin" type="url" name="linkedin url" placeholder="Paste Your LinkedIn URL">  
+        </div>
+      </div>
+
+      <div id="input3">
+        <button id="b3"><b>Education</b></button>
+        <div id="work3">
+          <h5>Education</h5> <input id="fill-education" type="text" name="education content" placeholder="Your Education"> 
+        </div>
+      </div>
+
+      <div id="input4">
+        <button id="b4"><b>Skills</b></button>
+        <div id="work4">
+          <h5>Skills</h5> <input id="fill-skills" type="text" name="skills content" placeholder="Your Skills" ></div>
+        </div>
+
+       
+      </div>
+    </div>
+
+    <div id="btn-div">
+        <button id="generate-btn"><b>Generate Resume</b></button>
+    </div>
+    <div id="resume-output"></div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+@media(max-width:520px){
+    h1{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 11px;
+    }
+    #resume-output {
+        width: 95%;
+        margin-top: 6vh;
+        padding: 0.5vh 0px 1.5vh 0px;    
+    }
+    .main-container {
+        width: 95%;
+        gap: 2vh;
+        padding: 0.3vh 0px 2.5vh 0px;
+    }
+    .input {
+        height: 3vh;
+        width: 65vw;
+        font-size: 1.5vh;    
+    }
+    .text {
+        height: 7vh;
+        width: 65vw;
+        font-size: 2vh;
+        padding:1vh 0px 0px 1vw;
+        background-color: rgba(223, 209, 209, 0.166);
+        color: white;
+    }
+    label {
+        font-size: 2.2vh;
+    }
+    #generate-btn {
+        width: 32vw;
+        font-size: 1.6vh;
+    }
+    h2 {
+        margin-top: 7vh;
+        font-size: 4vh;
+        text-align: center;
+    }
+    p {
+        color: white;
+        font-size: 2vh;
+        padding-left: 8vh;
+    
+    }
+    span {
+        font-size: 3vh;
+    }
+
+   }
+    @media(min-width:520px) and (max-width:730px){
+        h1{
+            font-size: 24px;
+        }
+        h4{
+            font-size: 13px;
+        }
+        #generate-btn {
+            width: 23vw;
+            font-size: 2vh;
+        }
+        h2 {
+            margin-top: 10vh;
+            font-size: 4vh;
+        }
+        p {
+            font-size: 2.3vh;  
+            padding-left: 5vh;
+  
+        }
+        span {
+            font-size: 3vh;
+        }
+    }
+
+/*   
+    #fill-obj{
+        height: 30px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    #fill-education{
+        height: 30px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    #fill-skills{
+        height: 30px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    
+    #fill-experience{
+        height: 30px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    #fill-name{
+        height: 10px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+} */
+/*     
+    #fill-nat{
+        height: 10px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    
+    #fill-gmail{
+        height: 10px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    #fill-contact{
+        height: 10px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    #fill-linkedin{
+        height: 10px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    #generate-btn{
+        height: 20px;
+        width: 100px;
+        border-radius: 4px ;
+        font-size: 10px ;
+    }
+    #generate-btn:hover{
+        height: 25px;
+        width: 110px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+    
+#btn-div{
+    padding: 90px 15px 15px 95px;
+}
+#resume-output{
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+}
+
+@media(min-width: 350px) and (max-width: 650px){
+    h1{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    #b1{
+        height:80px ;
+        width: 80px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    #b2{
+        height:80px ;
+        width: 80px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    #b3 {
+        height:80px ;
+    width: 80px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    #b4{
+        height:80px ;
+        width: 80px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    #b5{
+        height:80px ;
+        width: 80px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    #b1:hover{
+        height: 90px ;
+        width: 90px ;
+        border-radius: 12px;
+        font-size: 16px ;
+    }
+    #b2:hover{
+        height: 90px ;
+        width: 90px ;
+        border-radius: 12px;
+        font-size: 16px ;
+    }
+    #b3:hover{
+        height: 90px ;
+        width: 90px ;
+        border-radius: 12px;
+        font-size: 16px ;
+    }
+    #b4:hover{
+        height: 90px ;
+        width: 90px ;
+        border-radius: 12px;
+        font-size: 16px ;
+    }
+    #b5:hover{
+        height: 90px ;
+        width: 90px ;
+        border-radius: 12px;
+        font-size: 16px ;
+    }
+    h5{
+        font-size: 10px;
+    }
+    
+    #fill-obj{
+        height: 50px;
+        width: 110px;
+        border-radius: 4px;
+        font-size: 13px;
+    }
+    #fill-education{
+        height: 50px;
+        width: 110px;
+        border-radius: 4px;
+        font-size: 13px;
+    }
+    #fill-skills{
+        height: 50px;
+        width: 110px;
+        border-radius: 4px;
+        font-size: 13px;
+    }
+    
+    #fill-experience{
+        height: 50px;
+        width: 110px;
+        border-radius: 4px;
+        font-size: 13px;
+    }
+    #fill-name{
+        height: 20px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 13px;
+    }
+    #fill-nat{
+        height: 20px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 13px;
+    } #fill-gmail{
+        height: 20px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 13px;
+    } #fill-contact{
+        height: 20px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 13px;
+    } #fill-linkedin{
+        height: 20px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 13px;
+    }
+    #generate-btn{
+        height: 30px;
+        width: 125px;
+        border-radius: 4px ;
+        font-size: 13px ;
+    }
+    #generate-btn:hover{
+        height: 35px;
+        width: 135px;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+    
+#btn-div{
+    padding: 90px 15px 15px 135px;
+}
+#resume-output{
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+} */
